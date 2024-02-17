@@ -1,1 +1,35 @@
-/* место для вашего кода */
+.header{
+  margin-top: 92px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+  display: flex;
+  align-items: center;
+  
+}
+.header-nav{
+  grid-column-start: 1;
+  align-items: center;
+  justify-content: center;
+}
+.header-nav-list{
+  margin-left: 27px;
+  display: inline-flex;
+  white-space: nowrap;
+  gap: 31px;
+  list-style: circle;
+  
+}
+.header-nav-list-item{
+  text-decoration: none;
+  
+}
+.list-item-nodec{
+  list-style: none;
+}
+.header-logo{
+  margin-left: 40px;
+}
+.header-contacts-list{
+  margin-left: 191px;
+}
