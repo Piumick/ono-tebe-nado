@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/decor.css"/>
+    <link rel="stylesheet" href="./styles/decor.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li>главная</li>
           <li class="header__links-list-item under-line-text">
-            <a href="">посмотреть лоты</a>
+            <a href="#lots">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item under-line-text">
-            <a href="">об аукционе</a>
+            <a href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header__logo"
-        ><img src="./images/logo-black.svg" class="header__logo-image" alt="Логотип аукциона Оно тебе надо в черном цвете"/>
+      <a class="header__logo" href=""
+        ><img
+          src="./images/logo-black.svg"
+          class="header__logo-image"
+          alt="Логотип аукциона Оно тебе надо в черном цвете"
+        />
       </a>
       <ul class="header__contacts-list">
         <li>
@@ -69,8 +73,7 @@
         <button class="bet-button">сделать ставку</button>
       </div>
     </section>
-
-    <section class="lots">
+    <section id="lots" class="lots">
       <h2 class="lots__heading">Лоты</h2>
       <ul class="lots__list">
         <li>
@@ -120,16 +123,18 @@
           ></a>
         </li>
       </ul>
-      <a class="lots__look-more-link under-line-text" href="">посмотреть больше</a>
+      <a class="lots__look-more-link under-line-text" href=""
+        >посмотреть больше</a
+      >
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="about__logo">
         <img
           class="about__logo-image"
           src="./images/logo-white.svg"
           alt="Логотип аукциона Оно тебе надо в белом цвете"
-          width="148px"
-          height="114px"
+          width="148"
+          height="114"
         />
       </div>
       <div class="about__info">
@@ -164,24 +169,27 @@
           >
           лотов невозможно представить
           <span class="letter-spacing-0-1">современную культуру</span>. Когда в
-          эти вещи не верил никто, продолжали верить их <span
-            class="letter-spacing-0-1"
-            >создатели</span
-          >. И сейчас эти лоты стали культовыми.
+          эти вещи не верил никто, продолжали верить их
+          <span class="letter-spacing-0-1">создатели</span>. И сейчас эти лоты
+          стали культовыми.
         </p>
       </div>
     </section>
     <footer class="footer">
       <ul class="footer__contacts-list">
         <li>
-          <a class="under-line-text" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="under-line-text letter-spacing-0-1" href="tel:+99995555555"
+            >+9 999 555 5555</a
+          >
         </li>
         <li>
-          <a class="under-line-text" href="mailto:info@sobaka.ge"
+          <a
+            class="under-line-text letter-spacing-0-1"
+            href="mailto:info@sobaka.ge"
             >info@sobaka.ge</a
           >
         </li>
-        <li class="zero-letter-spasing">
+        <li>
           <address>
             наб. Принсенграхт 263-<br />
             265, Амстердам
@@ -189,33 +197,41 @@
         </li>
       </ul>
       <ul class="footer__nav-list">
-        <li class="footer__list-item">главная</li>
+        <li class="footer__list-item"><a href="#header">главная</a></li>
         <li class="footer__list-item">
-          <a class="under-line-text" href="">посмотреть лоты</a>
+          <a class="under-line-text" href="#lots">посмотреть лоты</a>
         </li>
         <li class="footer__list-item">
-          <a class="under-line-text" href="">об аукционе</a>
+          <a class="under-line-text" href="#about">об аукционе</a>
         </li>
       </ul>
       <div>
         <ul class="footer__social-list">
           <li>
             <a
-              ><img src="./images/yt.svg" alt="" height="48px" width="48px"
+              ><img
+                src="./images/yt.svg"
+                alt="логотип сервиса: youtube"
+                height="48"
+                width="48"
             /></a>
           </li>
           <li>
             <a
-              ><img src="./images/vk.svg" alt="" height="48px" width="48px"
+              ><img
+                src="./images/vk.svg"
+                alt="логотип сервиса: vk"
+                height="48"
+                width="48"
             /></a>
           </li>
           <li>
             <a
               ><img
                 src="./images/pinterest.svg"
-                alt=""
-                height="48px"
-                width="48px"
+                alt="логотип сервиса: pinterest"
+                height="48"
+                width="48"
             /></a>
           </li>
         </ul>
