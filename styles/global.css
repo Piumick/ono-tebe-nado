@@ -32,7 +32,6 @@ a {
 }
 li{
   list-style: none;
-  border-bottom: none;
 }
 span{
   margin: 0;
@@ -42,6 +41,9 @@ button{
   border: none;
   padding: 0;
 
+}
+address{
+  font-style: normal;
 }
 
 
